@@ -4,15 +4,18 @@
   "description": "primer proyecto con Express Y TypeScript",
   "license": "ISC",
   "author": "Nicolas urazan",
-  "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js"
+    "dev": "nodemon src/index.ts",
+    "build": "tsc"
   },
   "dependencies": {
     "express": "^4.21.2"
   },
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "@types/express": "^5.0.0",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
   }
 }
